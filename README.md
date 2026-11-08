@@ -4,6 +4,7 @@ The website of **Saru – Japanese OCR Dictionary**, an Android app for reading 
 
 - Site: https://grayman124.github.io/saru/
 - Privacy policy: https://grayman124.github.io/saru/privacy.html
+- Contact: saru.dict.support@gmail.com
 - Bugs and ideas: [open an issue](https://github.com/GrayMan124/saru/issues)
 
 The site is plain HTML served by GitHub Pages from the `main` branch. Its source lives in the app's repository under `docs/play/site/`.
