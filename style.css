@@ -1,0 +1,30 @@
+/* The app's dark Onsen palette (web/static/app.css), with the light one by day. */
+:root {
+  color-scheme: dark light;
+  --bg: #0b222b;
+  --fg: #f2f5f3;
+  --muted: #c5d6d8;
+  --accent: #f9b7a9;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f4fafa;
+    --fg: #10323a;
+    --muted: #2f5159;
+    --accent: #a83a2a;
+  }
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 17px/1.6 system-ui, "Noto Sans JP", sans-serif;
+}
+main { max-width: 40rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+h1 { font-size: 2rem; margin: 0.5rem 0; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+a { color: var(--accent); }
+.lead { font-size: 1.1rem; }
+.muted { color: var(--muted); font-size: 0.9rem; }
+.icon { border-radius: 22%; }
+li { margin: 0.4rem 0; }
