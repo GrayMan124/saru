@@ -1,5 +1,10 @@
 # Saru
 
+<div align="center">
+  <a href="https://www.aihonestybadge.com">
+    <img src="https://www.aihonestybadge.com/badges/ai-assisted-small.svg" alt="AI Assisted">
+  </a>
+</div>
 The website of **Saru – Japanese OCR Dictionary**, an Android app for reading Japanese books on paper: photograph a page, circle a word, look it up offline, and add it to AnkiDroid.
 
 - Site: https://grayman124.github.io/saru/
